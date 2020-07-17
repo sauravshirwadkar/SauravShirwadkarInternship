@@ -1,0 +1,36 @@
+/* Background image and text */
+
+.bgimage{
+    margin-top: 96px;
+}
+
+.cont{
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+ 
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .text-size{
+    font-size:30px;
+  } 
+ 
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    position:absolute;
+}
