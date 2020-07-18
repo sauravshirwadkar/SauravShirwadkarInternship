@@ -2,11 +2,11 @@
 $server = 'localhost';
 $username = 'root';
 $password = '';
-$dbName = 'saurav';
+$dbName = 'register';
 
 $conn = mysqli_connect($server,$username,$password,$dbName);
 if($conn){
-echo "connection suucessful";
+echo "connection successful";
 } else{
     echo "error";
 }

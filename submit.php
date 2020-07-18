@@ -5,12 +5,12 @@ $fname = $_REQUEST['name'];
 $email = $_REQUEST['mail'];
 $subject = $_REQUEST['subject'];
 
-$sql = "INSERT INTO `form data` ('message', 'name', 'mail', 'subject') VALUES
+$sql = "INSERT INTO register (message, name, mail, subject) VALUES
   ('$message','$fname','$email','$subject')";
 
 $result = mysqli_query($conn,$sql);
     if($result){
-        echo "record added";
+        echo " record added";
     }else{
         echo  "something wrong";
     }  
